@@ -92,3 +92,6 @@ models/
 data/augmented
 data/test
 data/test_results
+
+# Custom
+Dockerfile

@@ -18,7 +18,6 @@ from agoro_field_boundary_detector.google_earth_engine import (
 
 os.environ["KMP_DUPLICATE_LIB_OK"] = "True"
 
-
 class FieldBoundaryDetectorInterface:
     """Interface around the field boundary detector model used for inference."""
 
@@ -79,7 +78,6 @@ class FieldBoundaryDetectorInterface:
     def __repr__(self) -> str:
         """Representation of the data collection."""
         return str(self)
-
 
 if __name__ == "__main__":
     # Demo: Load in the model

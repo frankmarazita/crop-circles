@@ -1,0 +1,17 @@
+{
+	"name": "Crop Circles",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": ["--name=crop-circles", "--network=host"],
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"modular-mojotools.vscode-mojo"
+			]
+		}
+	},
+
+	"remoteUser": "root"
+}
