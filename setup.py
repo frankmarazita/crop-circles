@@ -11,11 +11,11 @@ README = (HERE / "README.md").read_text()
 
 INSTALL_REQUIRES = [
     "tqdm",
-    "torch~=2.0.1",
-    "torchvision~=0.15.2",
-    "pycocotools~=2.0.7",
-    "earthengine-api~=0.1.370",
-    "opencv-python~=4.8.0.76",
+    "torch~=1.8.1",
+    "torchvision~=0.9.1",
+    "pycocotools~=2.0.2",
+    "earthengine-api~=0.1.267",
+    "opencv-python~=4.5.2.52",
 ]
 
 setup(
