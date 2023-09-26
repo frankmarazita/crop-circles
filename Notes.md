@@ -1,0 +1,3 @@
+- Run the `iii_train_mask_rcnn.py` file with `--train 1` flags to train. Ensure to modify the value params inside the file.
+- Each of the 'step' files must be run in order on the first setup run.
+- https://radix.ai/blog/2021/6/from-a-to-z-on-field-boundary-detection-a-computer-vision-use-case/
