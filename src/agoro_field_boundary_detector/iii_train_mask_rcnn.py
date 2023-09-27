@@ -16,7 +16,7 @@ def train(
     n_workers: int = 0,
     val_frac: float = 0.1,
     early_stop: bool = True,
-    patience: int = 1,
+    patience: int = 10,
 ) -> None:
     """
     Train the model.
