@@ -9,7 +9,7 @@ import torchvision
 from pycocotools import mask as coco_mask
 from pycocotools.coco import COCO
 
-from agoro_field_boundary_detector.field_detection.mask_rcnn.transforms import Compose
+from .transforms import Compose
 
 
 class FilterAndRemapCocoCategories(object):

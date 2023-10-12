@@ -1,4 +1,5 @@
 """Interface around the field boundary detector model used for inference."""
+import ee
 import os
 from pathlib import Path
 from random import getrandbits
@@ -7,12 +8,11 @@ from typing import List, Optional, Tuple
 import numpy as np
 from PIL import Image
 
-from agoro_field_boundary_detector.field_detection import FieldBoundaryDetector
-from agoro_field_boundary_detector.google_earth_engine import (
+from .field_detection import FieldBoundaryDetector
+from .google_earth_engine import (
     NaipCollection,
     adjust_polygon,
     create_bounding_box,
-    start_session,
     to_polygon,
 )
 

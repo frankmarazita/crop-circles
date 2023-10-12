@@ -13,8 +13,8 @@ from group_by_aspect_ratio import GroupedBatchSampler, create_aspect_ratio_group
 
 import src.agoro_field_boundary_detector.field_detection.mask_rcnn.presets as presets
 import src.agoro_field_boundary_detector.field_detection.mask_rcnn.utils as utils
-from agoro_field_boundary_detector.field_detection.mask_rcnn.coco_utils import get_coco, get_coco_kp
-from agoro_field_boundary_detector.field_detection.mask_rcnn.engine import evaluate, train_one_epoch
+from .coco_utils import get_coco, get_coco_kp
+from .engine import evaluate, train_one_epoch
 
 
 def get_dataset(name: Any, image_set: Any, transform: Any, data_path: Any) -> Any:

@@ -13,9 +13,9 @@ from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
 from torchvision.transforms import functional as F_vis
 
-from agoro_field_boundary_detector.field_detection.dataset import Dataset
-from agoro_field_boundary_detector.field_detection.mask_rcnn.engine import evaluate, train_one_epoch
-from agoro_field_boundary_detector.field_detection.utils import mask_to_polygons
+from .dataset import Dataset
+from .mask_rcnn.engine import evaluate, train_one_epoch
+from .utils import mask_to_polygons
 
 
 class FieldBoundaryDetector:

@@ -1,13 +1,13 @@
 """Scripts to communicate with Google Earth Engine's Python API."""
-from agoro_field_boundary_detector.google_earth_engine.dataset import NaipCollection
-from agoro_field_boundary_detector.google_earth_engine.session import start as start_session
-from agoro_field_boundary_detector.google_earth_engine.utils import (
+from .dataset import NaipCollection
+from .session import start as start_session
+from .utils import (
     adjust_polygon,
     create_bounding_box,
     create_polygon,
     to_polygon,
 )
-from agoro_field_boundary_detector.google_earth_engine.visualisation import (
+from .visualisation import (
     create_map,
     show_point,
     show_polygon,

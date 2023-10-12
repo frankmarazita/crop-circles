@@ -8,7 +8,7 @@ import numpy as np
 from PIL import Image
 from tqdm import tqdm
 
-from agoro_field_boundary_detector.augmentation import (
+from augmentation import (
     get_random_noise,
     load_annotations,
     polygons_to_mask,
